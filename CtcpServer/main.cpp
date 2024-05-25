@@ -1,10 +1,10 @@
 #include "CtcpServe.h"
-#include<signal.h>
+#include <signal.h>
 using namespace std;
 
 int main(int argc, char *argv[])
-{   //避免僵尸进程
-    signal(SIGCHLD,SIG_IGN);
+{ // 避免僵尸进程
+    signal(SIGCHLD, SIG_IGN);
     if (argc != 2)
     {
         cout << "服务端端口号5005" << endl;
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         perror("initserve()");
         return -1;
     }
-    
+
     while (true)
     {
         if (ctcpserve.accept() == false)
@@ -25,8 +25,12 @@ int main(int argc, char *argv[])
             perror("accept()");
             return -1;
         }
-        //关闭多余的socket
-        if(fork()>0) {ctcpserve.clientclose();continue;}
+        // 关闭多余的socket
+        if (fork() > 0)
+        {
+            ctcpserve.clientclose();
+            continue;
+        }
         ctcpserve.listenclose();
         cout << "客户端已连接" << endl;
         string buffer;
