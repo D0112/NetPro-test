@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
         cout << "服务端ip：172.20.12.156,服务端端口：5005" << endl;
         return -1;
     }
+
     // string str1="172.20.12.156";
 
     CtcpClient ctcpclient;
