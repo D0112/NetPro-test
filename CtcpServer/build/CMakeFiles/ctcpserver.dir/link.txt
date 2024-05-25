@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/ctcpserver.dir/main.cpp.o CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o -o ctcpserver 

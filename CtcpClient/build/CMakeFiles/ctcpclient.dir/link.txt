@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/ctcpclient.dir/main.cpp.o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -o ctcpclient 

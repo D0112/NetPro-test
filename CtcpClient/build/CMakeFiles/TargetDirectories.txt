@@ -1,0 +1,3 @@
+/home/adminn/桌面/project/NerCode/CtcpClient/build/CMakeFiles/ctcpclient.dir
+/home/adminn/桌面/project/NerCode/CtcpClient/build/CMakeFiles/edit_cache.dir
+/home/adminn/桌面/project/NerCode/CtcpClient/build/CMakeFiles/rebuild_cache.dir
