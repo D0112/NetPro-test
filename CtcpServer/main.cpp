@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(int argc, char *argv[])
+
 { // 避免僵尸进程
     signal(SIGCHLD, SIG_IGN);
     if (argc != 2)
