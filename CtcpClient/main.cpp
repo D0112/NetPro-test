@@ -20,7 +20,7 @@ int main(int argc,char* argv[]){
     //     return -1;
     // }
     string buffer;
-    for(int i=0;i<10;++i){
+    for(int i=0;i<100;++i){
         buffer="这是第"+to_string(i+1)+"个请求";
         if(ctcpclient.send(buffer)==false){
             perror("send()");

@@ -1,4 +1,4 @@
-# Install script for directory: /home/adminn/桌面/project/NerCode/CtcpClient
+# Install script for directory: /home/adminn/桌面/project/NetPro-test/CtcpClient
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adminn/桌面/project/NerCode/CtcpClient/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adminn/桌面/project/NetPro-test/CtcpClient/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o: \
- /home/adminn/桌面/project/NerCode/CtcpClient/src/CtcpClient.cpp \
+ /home/adminn/桌面/project/NetPro-test/CtcpClient/src/CtcpClient.cpp \
  /usr/include/stdc-predef.h \
- /home/adminn/桌面/project/NerCode/CtcpClient/include/CtcpClient.h \
+ /home/adminn/桌面/project/NetPro-test/CtcpClient/include/CtcpClient.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
