@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/mkdir_cmake.dir/main.cpp.o CMakeFiles/mkdir_cmake.dir/src/mkdir.cpp.o -o mkdir_cmake 
+/usr/bin/c++ -rdynamic CMakeFiles/mkdir_cmake.dir/main.cpp.o -o mkdir_cmake  src/libMKDIR.a 

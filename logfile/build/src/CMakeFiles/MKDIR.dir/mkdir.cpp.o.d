@@ -1,7 +1,7 @@
-CMakeFiles/mkdir_cmake.dir/src/mkdir.cpp.o: \
+src/CMakeFiles/MKDIR.dir/mkdir.cpp.o: \
  /home/adminn/桌面/project/NetPro-test/logfile/src/mkdir.cpp \
  /usr/include/stdc-predef.h \
- /home/adminn/桌面/project/NetPro-test/logfile/include/mkdir.h \
+ /home/adminn/桌面/project/NetPro-test/logfile/src/mkdir.h \
  /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

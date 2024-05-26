@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles /home/adminn/桌面/project/NetPro-test/logfile/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles /home/adminn/桌面/project/NetPro-test/logfile/build/src//CMakeFiles/progress.marks
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,68 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named mkdir_cmake
+# Convenience name for target.
+src/CMakeFiles/MKDIR.dir/rule:
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MKDIR.dir/rule
+.PHONY : src/CMakeFiles/MKDIR.dir/rule
 
-# Build rule for target.
-mkdir_cmake: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mkdir_cmake
-.PHONY : mkdir_cmake
-
-# fast build rule for target.
-mkdir_cmake/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/build
-.PHONY : mkdir_cmake/fast
-
-#=============================================================================
-# Target rules for targets named MKDIR
-
-# Build rule for target.
-MKDIR: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MKDIR
+# Convenience name for target.
+MKDIR: src/CMakeFiles/MKDIR.dir/rule
 .PHONY : MKDIR
 
 # fast build rule for target.
 MKDIR/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/build
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/build
 .PHONY : MKDIR/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+mkdir.o: mkdir.cpp.o
+.PHONY : mkdir.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/main.cpp.o
-.PHONY : main.cpp.o
+mkdir.cpp.o:
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/mkdir.cpp.o
+.PHONY : mkdir.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+mkdir.i: mkdir.cpp.i
+.PHONY : mkdir.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/main.cpp.i
-.PHONY : main.cpp.i
+mkdir.cpp.i:
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/mkdir.cpp.i
+.PHONY : mkdir.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+mkdir.s: mkdir.cpp.s
+.PHONY : mkdir.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/main.cpp.s
-.PHONY : main.cpp.s
+mkdir.cpp.s:
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/mkdir.cpp.s
+.PHONY : mkdir.cpp.s
 
 # Help Target
 help:
@@ -175,10 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MKDIR"
-	@echo "... mkdir_cmake"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... mkdir.o"
+	@echo "... mkdir.i"
+	@echo "... mkdir.s"
 .PHONY : help
 
 
@@ -190,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adminn/桌面/project/NetPro-test/logfile/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
