@@ -1,0 +1,3 @@
+/home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles/mkdir_cmake.dir
+/home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles/edit_cache.dir
+/home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles/rebuild_cache.dir
