@@ -1,5 +1,6 @@
 #include "CtcpServe.h"
 #include <signal.h>
+#include "mkdir.h"
 using namespace std;
 
 void FATHEXIT(int sig);
@@ -16,6 +17,7 @@ int main(int argc, char *argv[])
         exit(0);
     signal(SIGINT, FATHEXIT);
     signal(SIGTERM, FATHEXIT);
+    // MKDIR("/home/adminn/桌面/project/test", false);
     if (argc != 2)
     {
         cout << "服务端端口号5005" << endl;
@@ -32,7 +34,7 @@ int main(int argc, char *argv[])
     {
         if (ctcpserve.accept() == false)
         {
-            perror("accept()");
+            perror("accept():");
             return -1;
         }
         // 关闭多余的socket

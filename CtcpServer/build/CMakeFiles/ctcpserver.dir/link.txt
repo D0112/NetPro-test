@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/ctcpserver.dir/main.cpp.o CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o -o ctcpserver 
+/usr/bin/c++ -g -rdynamic CMakeFiles/ctcpserver.dir/main.cpp.o CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o -o ctcpserver   -L/home/adminn/桌面/project/NetPro-test/CtcpServer/mkdir  -Wl,-rpath,/home/adminn/桌面/project/NetPro-test/CtcpServer/mkdir -Wl,-Bstatic -lMKDIR -Wl,-Bdynamic 

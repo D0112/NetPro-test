@@ -237,7 +237,20 @@ CMakeFiles/ctcpserver.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  ../mkdir/include/mkdir.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h
 
 CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
   /usr/include/stdc-predef.h \
@@ -458,7 +471,15 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
   /usr/include/arpa/inet.h
 
 
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx.h:
+
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+../mkdir/include/mkdir.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
@@ -489,6 +510,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/include/linux/posix_types.h:
 
@@ -529,6 +552,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
 
 /usr/include/c++/11/cwctype:
 
@@ -607,6 +632,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
@@ -724,6 +751,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 
 /usr/include/c++/11/ios:
 
+/usr/include/asm-generic/types.h:
+
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -745,6 +774,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -777,6 +808,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -821,6 +854,8 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 /usr/include/c++/11/bits/stl_iterator.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -912,9 +947,13 @@ CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: ../src/CtcpServe.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
+/usr/include/linux/stat.h:
+
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 

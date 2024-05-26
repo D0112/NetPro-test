@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/adminn/桌面/project/NetPro-test/CtcpServer/include
+CXX_INCLUDES = -I/home/adminn/桌面/project/NetPro-test/CtcpServer/include -I/home/adminn/桌面/project/NetPro-test/CtcpServer/mkdir/include
 
 CXX_FLAGS = -g
 
