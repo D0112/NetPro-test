@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         exit(0);
     signal(SIGINT, FATHEXIT);
     signal(SIGTERM, FATHEXIT);
-    // MKDIR("/home/adminn/桌面/project/test", false);
+    MKDIR("/home/adminn/桌面/project/test", false);
     if (argc != 2)
     {
         cout << "服务端端口号5005" << endl;
