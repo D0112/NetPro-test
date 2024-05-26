@@ -4,6 +4,6 @@ project(CTCPCLIENT)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-set(set(CMAKE_BUILD_TYPE Debug))
+set(CMAKE_BUILD_TYPE Debug)
 
 add_executable(ctcpclient main.cpp src/CtcpClient.cpp)
