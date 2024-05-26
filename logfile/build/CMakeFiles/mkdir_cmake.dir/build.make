@@ -92,7 +92,7 @@ mkdir_cmake_EXTERNAL_OBJECTS =
 
 mkdir_cmake: CMakeFiles/mkdir_cmake.dir/main.cpp.o
 mkdir_cmake: CMakeFiles/mkdir_cmake.dir/build.make
-mkdir_cmake: src/libMKDIR.a
+mkdir_cmake: src/libMKDIR.so
 mkdir_cmake: CMakeFiles/mkdir_cmake.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mkdir_cmake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mkdir_cmake.dir/link.txt --verbose=$(VERBOSE)

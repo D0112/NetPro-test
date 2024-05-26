@@ -1,2 +1,1 @@
-/usr/bin/ar qc libMKDIR.a CMakeFiles/MKDIR.dir/mkdir.cpp.o
-/usr/bin/ranlib libMKDIR.a
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libMKDIR.so -o libMKDIR.so CMakeFiles/MKDIR.dir/mkdir.cpp.o 

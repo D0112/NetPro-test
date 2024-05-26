@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MKDIR.dir/mkdir.cpp.o"
   "CMakeFiles/MKDIR.dir/mkdir.cpp.o.d"
-  "libMKDIR.a"
   "libMKDIR.pdb"
+  "libMKDIR.so"
 )
 
 # Per-language clean rules from dependency scanning.
