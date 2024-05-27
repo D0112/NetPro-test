@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/adminn/桌面/project/NetPro-test/logfile/src
+CXX_INCLUDES = -I/home/adminn/Desktop/project/NetPro-test/logfile/extern
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

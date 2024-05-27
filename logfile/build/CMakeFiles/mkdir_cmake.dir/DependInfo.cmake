@@ -8,12 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adminn/桌面/project/NetPro-test/logfile/main.cpp" "CMakeFiles/mkdir_cmake.dir/main.cpp.o" "gcc" "CMakeFiles/mkdir_cmake.dir/main.cpp.o.d"
+  "/home/adminn/Desktop/project/NetPro-test/logfile/main.cpp" "CMakeFiles/mkdir_cmake.dir/main.cpp.o" "gcc" "CMakeFiles/mkdir_cmake.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/adminn/桌面/project/NetPro-test/logfile/build/src/CMakeFiles/MKDIR.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

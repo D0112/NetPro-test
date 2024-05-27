@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/mkdir_cmake.dir/main.cpp.o -o mkdir_cmake  -Wl,-rpath,/home/adminn/桌面/project/NetPro-test/logfile/build/src src/libMKDIR.so 
+/usr/bin/c++ -g -rdynamic CMakeFiles/mkdir_cmake.dir/main.cpp.o -o mkdir_cmake   -L/home/adminn/Desktop/project/NetPro-test/logfile/extern  -Wl,-rpath,/home/adminn/Desktop/project/NetPro-test/logfile/extern -lFREECPLUS_SO 

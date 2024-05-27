@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminn/桌面/project/NetPro-test/logfile
+CMAKE_SOURCE_DIR = /home/adminn/Desktop/project/NetPro-test/logfile
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminn/桌面/project/NetPro-test/logfile/build
+CMAKE_BINARY_DIR = /home/adminn/Desktop/project/NetPro-test/logfile/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles /home/adminn/桌面/project/NetPro-test/logfile/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/Desktop/project/NetPro-test/logfile/build/CMakeFiles /home/adminn/Desktop/project/NetPro-test/logfile/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/Desktop/project/NetPro-test/logfile/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,19 +129,6 @@ mkdir_cmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/build
 .PHONY : mkdir_cmake/fast
 
-#=============================================================================
-# Target rules for targets named MKDIR
-
-# Build rule for target.
-MKDIR: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MKDIR
-.PHONY : MKDIR
-
-# fast build rule for target.
-MKDIR/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/build
-.PHONY : MKDIR/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -174,7 +161,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MKDIR"
 	@echo "... mkdir_cmake"
 	@echo "... main.o"
 	@echo "... main.i"

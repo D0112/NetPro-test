@@ -10,7 +10,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/mkdir_cmake",
-            "args": ["/home/adminn/桌面/project/test/test.txt","true"],
+            "args": ["/home/adminn/Desktop/project/test/test.txt","true"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

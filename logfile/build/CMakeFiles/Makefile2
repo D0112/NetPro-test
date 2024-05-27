@@ -54,58 +54,41 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminn/桌面/project/NetPro-test/logfile
+CMAKE_SOURCE_DIR = /home/adminn/Desktop/project/NetPro-test/logfile
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminn/桌面/project/NetPro-test/logfile/build
+CMAKE_BINARY_DIR = /home/adminn/Desktop/project/NetPro-test/logfile/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/mkdir_cmake.dir/all
-all: src/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: src/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/mkdir_cmake.dir/clean
-clean: src/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory src
-
-# Recursive "all" directory target.
-src/all: src/CMakeFiles/MKDIR.dir/all
-.PHONY : src/all
-
-# Recursive "preinstall" directory target.
-src/preinstall:
-.PHONY : src/preinstall
-
-# Recursive "clean" directory target.
-src/clean: src/CMakeFiles/MKDIR.dir/clean
-.PHONY : src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/mkdir_cmake.dir
 
 # All Build rule for target.
-CMakeFiles/mkdir_cmake.dir/all: src/CMakeFiles/MKDIR.dir/all
+CMakeFiles/mkdir_cmake.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles --progress-num=3,4 "Built target mkdir_cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminn/Desktop/project/NetPro-test/logfile/build/CMakeFiles --progress-num=1,2 "Built target mkdir_cmake"
 .PHONY : CMakeFiles/mkdir_cmake.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mkdir_cmake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/Desktop/project/NetPro-test/logfile/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mkdir_cmake.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/Desktop/project/NetPro-test/logfile/build/CMakeFiles 0
 .PHONY : CMakeFiles/mkdir_cmake.dir/rule
 
 # Convenience name for target.
@@ -116,32 +99,6 @@ mkdir_cmake: CMakeFiles/mkdir_cmake.dir/rule
 CMakeFiles/mkdir_cmake.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mkdir_cmake.dir/build.make CMakeFiles/mkdir_cmake.dir/clean
 .PHONY : CMakeFiles/mkdir_cmake.dir/clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/MKDIR.dir
-
-# All Build rule for target.
-src/CMakeFiles/MKDIR.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles --progress-num=1,2 "Built target MKDIR"
-.PHONY : src/CMakeFiles/MKDIR.dir/all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/MKDIR.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MKDIR.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminn/桌面/project/NetPro-test/logfile/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/MKDIR.dir/rule
-
-# Convenience name for target.
-MKDIR: src/CMakeFiles/MKDIR.dir/rule
-.PHONY : MKDIR
-
-# clean rule for target.
-src/CMakeFiles/MKDIR.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MKDIR.dir/build.make src/CMakeFiles/MKDIR.dir/clean
-.PHONY : src/CMakeFiles/MKDIR.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
