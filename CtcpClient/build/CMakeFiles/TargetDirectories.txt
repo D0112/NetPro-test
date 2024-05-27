@@ -1,3 +1,3 @@
-/home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles/ctcpclient.dir
-/home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles/edit_cache.dir
-/home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles/rebuild_cache.dir
+/home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles/ctcpclient.dir
+/home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles/edit_cache.dir
+/home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles/rebuild_cache.dir

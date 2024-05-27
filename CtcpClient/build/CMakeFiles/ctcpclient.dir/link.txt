@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/ctcpclient.dir/main.cpp.o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -o ctcpclient 
+/usr/bin/c++  -finput-charset=UTF-8 -g -rdynamic CMakeFiles/ctcpclient.dir/main.cpp.o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -o ctcpclient   -L/home/adminn/Desktop/project/NetPro-test/CtcpClient/extern  -Wl,-rpath,/home/adminn/Desktop/project/NetPro-test/CtcpClient/extern -lFREECPLUS_SO 

@@ -1,32 +1,38 @@
 #include "CtcpServe.h"
 #include <signal.h>
-#include "mkdir.h"
+#include "_freecplus.h"
 using namespace std;
 
 void FATHEXIT(int sig);
 void CHLDEXIT(int sig);
 
+CLogFile logfile;
 CtcpServe ctcpserve;
 
 int main(int argc, char *argv[])
 
-{ // 避免出现僵尸进程，并关闭全部信号
+{
+    if (logfile.Open("./logfile") == false)
+    {
+        cout << "logfile.Open is Wrong" << endl;
+    }
+    logfile.Write("LOG Successfully \n");
+    // 避免出现僵尸进程，并关闭全部信号
     for (int ii = 0; ii < 100; ++ii)
         signal(ii, SIG_IGN);
     if (fork() > 0)
         exit(0);
     signal(SIGINT, FATHEXIT);
     signal(SIGTERM, FATHEXIT);
-    MKDIR("/home/adminn/桌面/project/test", false);
     if (argc != 2)
     {
-        cout << "服务端端口号5005" << endl;
+        logfile.Write("服务端端口号5005 \n");
         return -1;
     }
 
     if (ctcpserve.initserve(atoi(argv[1])) == false)
     {
-        perror("initserve()");
+        logfile.Write("initserve() \n");
         return -1;
     }
 
@@ -34,7 +40,7 @@ int main(int argc, char *argv[])
     {
         if (ctcpserve.accept() == false)
         {
-            perror("accept():");
+            logfile.Write("accept() \n");
             return -1;
         }
         // 关闭多余的socket
@@ -46,23 +52,23 @@ int main(int argc, char *argv[])
         signal(SIGINT, CHLDEXIT);
         signal(SIGTERM, CHLDEXIT);
         ctcpserve.listenclose();
-        cout << "客户端已连接" << endl;
+        logfile.Write("客户端已连接 \n");
         string buffer;
         while (true)
         {
             if (ctcpserve.recv(buffer, 1024) == false)
             {
-                perror("recv()");
+                logfile.Write("recv() \n");
                 break;
             }
-            cout << "接收：" << buffer << endl;
+            logfile.Write("接收：%s\n", buffer.c_str());
             buffer = "ok";
             if (ctcpserve.send(buffer) == false)
             {
-                perror("send()");
+                logfile.Write("send() \n");
                 break;
             }
-            cout << "发送：" << buffer << endl;
+            logfile.Write("发送：%s\n", buffer.c_str());
         }
     }
 }
@@ -74,10 +80,10 @@ void FATHEXIT(int sig)
         signal(sig, SIG_IGN);
         signal(SIGINT, SIG_IGN);
         signal(SIGTERM, SIG_IGN);
-        cout << "catching the signal" << sig << endl;
+        logfile.Write("catching the signal \n");
     }
     kill(0, 15);
-    cout << "父进程退出" << endl;
+    logfile.Write("父进程退出 \n");
     // 编写善后代码（释放资源，提交或回滚事物）
     exit(0);
 }
@@ -89,9 +95,9 @@ void CHLDEXIT(int sig)
         signal(sig, SIG_IGN);
         signal(SIGINT, SIG_IGN);
         signal(SIGTERM, SIG_IGN);
-        cout << "catching the signal" << sig << endl;
+        logfile.Write("catching the signal \n");
     }
-    cout << "子进程退出" << endl;
+    logfile.Write("子进程退出 \n");
     // 编写善后代码（释放资源，提交或回滚事物）
     exit(0);
 }

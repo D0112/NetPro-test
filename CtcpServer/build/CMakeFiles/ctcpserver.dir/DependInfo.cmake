@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adminn/桌面/project/NetPro-test/CtcpServer/main.cpp" "CMakeFiles/ctcpserver.dir/main.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/main.cpp.o.d"
-  "/home/adminn/桌面/project/NetPro-test/CtcpServer/src/CtcpServe.cpp" "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o.d"
+  "/home/adminn/Desktop/project/NetPro-test/CtcpServer/main.cpp" "CMakeFiles/ctcpserver.dir/main.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/main.cpp.o.d"
+  "/home/adminn/Desktop/project/NetPro-test/CtcpServer/src/CtcpServe.cpp" "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o.d"
   )
 
 # Targets to which this target links.

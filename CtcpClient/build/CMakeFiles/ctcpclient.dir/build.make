@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminn/桌面/project/NetPro-test/CtcpClient
+CMAKE_SOURCE_DIR = /home/adminn/Desktop/project/NetPro-test/CtcpClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminn/桌面/project/NetPro-test/CtcpClient/build
+CMAKE_BINARY_DIR = /home/adminn/Desktop/project/NetPro-test/CtcpClient/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ctcpclient.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/ctcpclient.dir/flags.make
 CMakeFiles/ctcpclient.dir/main.cpp.o: CMakeFiles/ctcpclient.dir/flags.make
 CMakeFiles/ctcpclient.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ctcpclient.dir/main.cpp.o: CMakeFiles/ctcpclient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ctcpclient.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ctcpclient.dir/main.cpp.o -MF CMakeFiles/ctcpclient.dir/main.cpp.o.d -o CMakeFiles/ctcpclient.dir/main.cpp.o -c /home/adminn/桌面/project/NetPro-test/CtcpClient/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ctcpclient.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ctcpclient.dir/main.cpp.o -MF CMakeFiles/ctcpclient.dir/main.cpp.o.d -o CMakeFiles/ctcpclient.dir/main.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpClient/main.cpp
 
 CMakeFiles/ctcpclient.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ctcpclient.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminn/桌面/project/NetPro-test/CtcpClient/main.cpp > CMakeFiles/ctcpclient.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminn/Desktop/project/NetPro-test/CtcpClient/main.cpp > CMakeFiles/ctcpclient.dir/main.cpp.i
 
 CMakeFiles/ctcpclient.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ctcpclient.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminn/桌面/project/NetPro-test/CtcpClient/main.cpp -o CMakeFiles/ctcpclient.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminn/Desktop/project/NetPro-test/CtcpClient/main.cpp -o CMakeFiles/ctcpclient.dir/main.cpp.s
 
 CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o: CMakeFiles/ctcpclient.dir/flags.make
 CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o: ../src/CtcpClient.cpp
 CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o: CMakeFiles/ctcpclient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -MF CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o.d -o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -c /home/adminn/桌面/project/NetPro-test/CtcpClient/src/CtcpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -MF CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o.d -o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpClient/src/CtcpClient.cpp
 
 CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminn/桌面/project/NetPro-test/CtcpClient/src/CtcpClient.cpp > CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminn/Desktop/project/NetPro-test/CtcpClient/src/CtcpClient.cpp > CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.i
 
 CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminn/桌面/project/NetPro-test/CtcpClient/src/CtcpClient.cpp -o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminn/Desktop/project/NetPro-test/CtcpClient/src/CtcpClient.cpp -o CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.s
 
 # Object files for target ctcpclient
 ctcpclient_OBJECTS = \
@@ -109,7 +109,7 @@ ctcpclient: CMakeFiles/ctcpclient.dir/main.cpp.o
 ctcpclient: CMakeFiles/ctcpclient.dir/src/CtcpClient.cpp.o
 ctcpclient: CMakeFiles/ctcpclient.dir/build.make
 ctcpclient: CMakeFiles/ctcpclient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ctcpclient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ctcpclient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ctcpclient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/ctcpclient.dir/clean:
 .PHONY : CMakeFiles/ctcpclient.dir/clean
 
 CMakeFiles/ctcpclient.dir/depend:
-	cd /home/adminn/桌面/project/NetPro-test/CtcpClient/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminn/桌面/project/NetPro-test/CtcpClient /home/adminn/桌面/project/NetPro-test/CtcpClient /home/adminn/桌面/project/NetPro-test/CtcpClient/build /home/adminn/桌面/project/NetPro-test/CtcpClient/build /home/adminn/桌面/project/NetPro-test/CtcpClient/build/CMakeFiles/ctcpclient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminn/Desktop/project/NetPro-test/CtcpClient/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminn/Desktop/project/NetPro-test/CtcpClient /home/adminn/Desktop/project/NetPro-test/CtcpClient /home/adminn/Desktop/project/NetPro-test/CtcpClient/build /home/adminn/Desktop/project/NetPro-test/CtcpClient/build /home/adminn/Desktop/project/NetPro-test/CtcpClient/build/CMakeFiles/ctcpclient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ctcpclient.dir/depend
 
