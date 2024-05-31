@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.cpp" "CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o.d"
+  "/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.cpp" "CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o.d"
   "/home/adminn/Desktop/project/NetPro-test/CtcpServer/main.cpp" "CMakeFiles/ctcpserver.dir/main.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/main.cpp.o.d"
   "/home/adminn/Desktop/project/NetPro-test/CtcpServer/src/CtcpServe.cpp" "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o" "gcc" "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o.d"
   )

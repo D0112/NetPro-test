@@ -4,12 +4,6 @@ CtcpServe::CtcpServe()
 {
     m_clientfd = -1;
     m_listenfd = -1;
-    m_infoMax = sizeof(m_infos) / sizeof(m_infos[0]);
-    for (int i = 0; i < m_infoMax; ++i)
-    {
-        memset(&m_infos[i], 0, sizeof(m_infos[i]));
-        m_infos[i].fd = -1;
-    }
 }
 
 // 初始化监听socket
@@ -44,21 +38,15 @@ bool CtcpServe::initserve(const unsigned short in_port)
     return true;
 }
 // 取出一个客户端ip
-pair<bool, SockInfo *> CtcpServe::accept()
+pair<bool, SockInfo *> CtcpServe::accept(SockInfo *pinfo)
 {
-    SockInfo *pinfo;
-    for (int i = 0; i < m_infoMax; ++i)
-    {
-        if (m_infos[i].fd == -1)
-        {
-            pinfo = &m_infos[i];
-            break;
-        }
-    }
     socklen_t addrlen = sizeof(struct sockaddr_in);
     // 接收客户端请求
     if ((m_clientfd = ::accept(m_listenfd, (struct sockaddr *)&pinfo->addr, &addrlen)) == -1)
+    {
+        this->listenclose();
         return make_pair(false, pinfo);
+    }
     pinfo->fd = m_clientfd;
     // 将客户端地址由大端序转为字符串
     m_clientip = inet_ntoa(pinfo->addr.sin_addr);

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o"
+  "CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o.d"
+  "CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o"
+  "CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o.d"
   "CMakeFiles/ctcpserver.dir/main.cpp.o"
   "CMakeFiles/ctcpserver.dir/main.cpp.o.d"
   "CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o"

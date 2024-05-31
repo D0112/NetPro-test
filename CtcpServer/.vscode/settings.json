@@ -6,6 +6,7 @@
         "limits": "cpp",
         "semaphore": "cpp",
         "algorithm": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "new": "cpp"
     }
 }

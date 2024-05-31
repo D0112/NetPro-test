@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern
 
-CXX_FLAGS =  -finput-charset=UTF-8 -g
+CXX_FLAGS = -g
 

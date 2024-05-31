@@ -129,6 +129,54 @@ ctcpserver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/build
 .PHONY : ctcpserver/fast
 
+extern/TaskQueue.o: extern/TaskQueue.cpp.o
+.PHONY : extern/TaskQueue.o
+
+# target to build an object file
+extern/TaskQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o
+.PHONY : extern/TaskQueue.cpp.o
+
+extern/TaskQueue.i: extern/TaskQueue.cpp.i
+.PHONY : extern/TaskQueue.i
+
+# target to preprocess a source file
+extern/TaskQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.i
+.PHONY : extern/TaskQueue.cpp.i
+
+extern/TaskQueue.s: extern/TaskQueue.cpp.s
+.PHONY : extern/TaskQueue.s
+
+# target to generate assembly for a file
+extern/TaskQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.s
+.PHONY : extern/TaskQueue.cpp.s
+
+extern/ThreadPool.o: extern/ThreadPool.cpp.o
+.PHONY : extern/ThreadPool.o
+
+# target to build an object file
+extern/ThreadPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o
+.PHONY : extern/ThreadPool.cpp.o
+
+extern/ThreadPool.i: extern/ThreadPool.cpp.i
+.PHONY : extern/ThreadPool.i
+
+# target to preprocess a source file
+extern/ThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.i
+.PHONY : extern/ThreadPool.cpp.i
+
+extern/ThreadPool.s: extern/ThreadPool.cpp.s
+.PHONY : extern/ThreadPool.s
+
+# target to generate assembly for a file
+extern/ThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctcpserver.dir/build.make CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.s
+.PHONY : extern/ThreadPool.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ctcpserver"
+	@echo "... extern/TaskQueue.o"
+	@echo "... extern/TaskQueue.i"
+	@echo "... extern/TaskQueue.s"
+	@echo "... extern/ThreadPool.o"
+	@echo "... extern/ThreadPool.i"
+	@echo "... extern/ThreadPool.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
