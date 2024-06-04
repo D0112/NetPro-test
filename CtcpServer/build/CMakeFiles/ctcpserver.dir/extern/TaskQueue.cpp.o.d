@@ -1,7 +1,7 @@
 CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o: \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.cpp \
  /usr/include/stdc-predef.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

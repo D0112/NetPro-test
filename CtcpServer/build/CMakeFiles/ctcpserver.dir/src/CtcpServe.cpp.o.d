@@ -1,7 +1,7 @@
 CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o: \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/src/CtcpServe.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/src/CtcpServe.cpp \
  /usr/include/stdc-predef.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/include/CtcpServe.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include/CtcpServe.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -34,7 +34,6 @@ bool CtcpServe::initserve(const unsigned short in_port)
     {
         return this->listenclose();
     }
-    cout << m_listenfd << endl;
     return true;
 }
 // 取出一个客户端ip

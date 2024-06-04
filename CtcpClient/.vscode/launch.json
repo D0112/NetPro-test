@@ -10,7 +10,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/ctcpclient",
-            "args": ["172.12.20.156","5005"],
+            "args": ["172.20.12.156","5005"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

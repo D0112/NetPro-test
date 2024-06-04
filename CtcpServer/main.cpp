@@ -8,9 +8,7 @@
 using namespace std;
 void ThredFunc(void *arg);
 void *acceptconn(void *arg);
-void Pthexit(void *arg);
 void Mainexit(int sig);
-vector<long> vthid;
 CLogFile Logfile;
 CtcpServe ctcpserve;
 
@@ -58,6 +56,7 @@ void *acceptconn(void *arg)
         if (tmp.first == false)
         {
             Logfile.Write("accept() \n");
+            delete pinfo;
             break;
         }
         // // 关闭多余的socket
@@ -74,6 +73,8 @@ void *acceptconn(void *arg)
         Task<SockInfo *> task(ThredFunc, pinfo);
         pool->addTask(task);
     }
+    Logfile.Write("pool delete\n");
+    delete pool;
     pthread_exit(0);
 }
 
@@ -101,27 +102,9 @@ void ThredFunc(void *arg)
     // pthread_exit(0);
 }
 
-void Pthexit(void *arg)
-{
-    SockInfo *pinfo = (struct SockInfo *)arg;
-    close(pinfo->fd);
-    pinfo->fd = -1;
-    for (int i = 0; i < vthid.size(); ++i)
-    {
-        if (vthid[i] == pthread_self())
-        {
-            vthid.erase(vthid.begin() + i);
-        }
-    }
-}
-
 void Mainexit(int sig)
 {
     ctcpserve.listenclose();
-    for (int i = 0; i < vthid.size(); ++i)
-    {
-        pthread_cancel(vthid[i]);
-    }
     Logfile.Write("服务端关闭，主进程退出\n");
     exit(0);
 }

@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     //     return -1;
     // }
     string buffer;
-    for (int i = 0; i < 100; ++i)
+    for (int i = 0; i < 3; ++i)
     {
         buffer = "This is" + to_string(i + 1) + "th Request";
         if (ctcpclient.send(buffer) == false)

@@ -1,7 +1,7 @@
 CMakeFiles/ctcpserver.dir/main.cpp.o: \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/main.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/main.cpp \
  /usr/include/stdc-predef.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/include/CtcpServe.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include/CtcpServe.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -196,8 +196,8 @@ CMakeFiles/ctcpserver.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/_freecplus.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/_cmpublic.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/_freecplus.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/_cmpublic.h \
  /usr/include/utime.h /usr/include/c++/11/stdlib.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -284,10 +284,10 @@ CMakeFiles/ctcpserver.dir/main.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.cpp \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/_freecplus.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.cpp \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.h
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/_freecplus.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.h

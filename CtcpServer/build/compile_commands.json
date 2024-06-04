@@ -1,22 +1,22 @@
 [
 {
-  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build",
-  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern -g -o CMakeFiles/ctcpserver.dir/main.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer/main.cpp",
-  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/main.cpp"
+  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build",
+  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern -g -o CMakeFiles/ctcpserver.dir/main.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/main.cpp",
+  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/main.cpp"
 },
 {
-  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build",
-  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern -g -o CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer/src/CtcpServe.cpp",
-  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/src/CtcpServe.cpp"
+  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build",
+  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern -g -o CMakeFiles/ctcpserver.dir/src/CtcpServe.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/src/CtcpServe.cpp",
+  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/src/CtcpServe.cpp"
 },
 {
-  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build",
-  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern -g -o CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.cpp",
-  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.cpp"
+  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build",
+  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern -g -o CMakeFiles/ctcpserver.dir/extern/TaskQueue.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.cpp",
+  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.cpp"
 },
 {
-  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build",
-  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern -g -o CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.cpp",
-  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.cpp"
+  "directory": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build",
+  "command": "/usr/bin/c++  -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include -I/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern -g -o CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o -c /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.cpp",
+  "file": "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.cpp"
 }
 ]

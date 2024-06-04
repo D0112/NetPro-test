@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build"
+			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer"
+			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build"
+			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build"
 		},
 		{
 			"name" : "CTCPSERVER_IS_TOP_LEVEL",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer"
+			"value" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select"
 		}
 	],
 	"kind" : "cache",

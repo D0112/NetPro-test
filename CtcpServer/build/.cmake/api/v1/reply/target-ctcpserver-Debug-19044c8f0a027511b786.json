@@ -63,11 +63,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer/include"
+					"path" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern"
+					"path" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern"
 				}
 			],
 			"language" : "CXX",
@@ -95,16 +95,16 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-L/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern",
+				"fragment" : "-L/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-L/home/adminn/Desktop/project/NetPro-test/CtcpServer/pthread",
+				"fragment" : "-L/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/pthread",
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/adminn/Desktop/project/NetPro-test/CtcpServer/extern:/home/adminn/Desktop/project/NetPro-test/CtcpServer/pthread",
+				"fragment" : "-Wl,-rpath,/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern:/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/pthread",
 				"role" : "libraries"
 			},
 			{

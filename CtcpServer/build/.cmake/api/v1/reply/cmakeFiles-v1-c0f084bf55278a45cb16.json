@@ -125,8 +125,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer/build",
-		"source" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer"
+		"build" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select/build",
+		"source" : "/home/adminn/Desktop/project/NetPro-test/CtcpServer-select"
 	},
 	"version" : 
 	{

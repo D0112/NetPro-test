@@ -1,8 +1,8 @@
 CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o: \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.cpp \
  /usr/include/stdc-predef.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/ThreadPool.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/ThreadPool.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -83,9 +83,9 @@ CMakeFiles/ctcpserver.dir/extern/ThreadPool.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/TaskQueue.cpp \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/_freecplus.h \
- /home/adminn/Desktop/project/NetPro-test/CtcpServer/extern/_cmpublic.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/TaskQueue.cpp \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/_freecplus.h \
+ /home/adminn/Desktop/project/NetPro-test/CtcpServer-select/extern/_cmpublic.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
